@@ -1,0 +1,141 @@
+body{
+    background-image: linear-gradient(to bottom left,#5c4182,#242442,#442f61,#242442);
+}
+.bg-gradient {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom left,#5c4182,#242442,#442f61,#242442);
+}
+
+.footer{
+    background: black;
+}
+
+.footer .box-continer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+    gap:1.5rem;
+}
+
+.footer .box-continer .box h3{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: #fff;
+
+}
+
+.footer .box-continer .box a{
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: #fff;
+
+}
+
+.footer .box-continer .box a i{
+    padding-right: .5rem;
+    color: var(--main-color);
+
+}
+
+.footer .box-continer .box a:hover i{
+    padding-right: 1.5rem;
+    color: #fff;
+
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid #222 ;
+    color: #fff;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.gallery .box-continer .box1{
+    position:relative;
+    border: 1rem solid #333;
+    border-radius: .5rem;
+    height: 25rem;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.gallery .box-continer .box1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.gallery .box-continer .box1:hover img{
+    transform: scale(1.1);
+    filter: grayscale();
+}
+
+.gallery .box-continer .box1 .title{
+    position: absolute;
+    top: -10rem; left: 0; right: 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.gallery .box-continer .box1:hover .title{
+    top:0;
+}
+
+
+.gallery .box-continer .box1 .icons{
+    position: absolute;
+    bottom: -10rem; left: 0; right: 0;
+    background: #333;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.gallery .box-continer .box1:hover .icons{
+    bottom: 0;
+}
+
+.gallery .box-continer .box1 .icons a{
+    font-size: 2rem;
+    margin:.5rem 1rem ;
+    color: #fff;
+}
+
+.gallery .box-continer .box .icons a:hover{
+    color: var(--main-color);  
+}
+
+.container {
+    text-align: center; /* Align boxes to the center */
+}
+
+.box1 {
+    display: inline-block;
+    width: calc(33.33% - 220px); /* Adjust width according to the container and margins/paddings */
+    margin: 20px; /* Adjust margin as needed */
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.box2 {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+  }
+
+.info {
+    color: #c8bdbd;
+    font-size: 18px;
+}
